@@ -1,0 +1,145 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Daniel
+    last_name: Sánchez Vera
+    
+    # Define yourself in 4-5 words
+    motto: I like learn a lot
+    
+    # Focus
+    focus: Be the better
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+       I am a visionary with high analytical
+      skills and a lover of videogames. I
+      have a combination of technical and
+      creative skills, I am also receptive and
+      willing to learn new technologies and
+      be updated on the latest trends. 
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C5603AQEs5k3Fq0seAw/profile-displayphoto-shrink_800_800/0/1652823407728?e=1718841600&v=beta&t=bDz7vjFmsUE8kbNXXPvwQw6jAw6ubG95YZ1rPhLIjNc
+
+    # Contact Information
+    email: danilaorilla@gmail.com #optional
+    phone: +34 662032609 #optional
+    website: https://github.com/Nanit20 #optional
+    linkedin: https://www.linkedin.com/in/daniel-s%C3%A1nchez-vera-a89b92224/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/Nanit20
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Spanish
+        level: Native
+
+      - idiom: Catalan
+        level: Casual
+
+    # Interests or hobbies
+    interests:
+      - item: Videogames
+
+      - item: Programming
+
+      - item: Watch movies
+
+# Your previous education
+education:
+    - degree: Engineer Computer
+      university: University of Las Palmas De Gran Canaria
+      # optional
+      university_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjyFreJvEfmet6jG1LhR_COpna8T5ziFOex9QHz4W8Ag&s
+      time: 2016 - 2022
+      details: |
+        I studied all branches related to computing in this degree.
+
+    - degree: Video Game Developer
+      university: The Core Entertainment Sciene School
+      # optional
+      university_logo: https://www.planetaformacion.com/sites/pfu.es/files/images/The%20core.png
+      time: 2022 - 2023
+      details: |
+        Study the passion of programming video games especially in unreal 5
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Developer fivem servers
+      time: 2021 - Present
+      company: freelance
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        I develop servers with scripts in lua, js, html, css, react, vue, c++. Managing a remote server with a mysql database
+
+    - role: Developer unity
+      time: 2021 - 2021
+      company: Singular Factory
+      # optional
+      company_logo: https://media.licdn.com/dms/image/C560BAQEOTJEIN03Hpg/company-logo_200_200/0/1630654405677/thesingularfactory_logo?e=2147483647&v=beta&t=-TU97Knr4AnbiTeCRUxtREB6PnID-mJc3OemJfBcP-8
+      details: |
+        Just a little bit of videogame develope
+
+    - role: MYSQL and Node.js developer
+      time: 2021 - 2022
+      company: DESIC
+      # optional
+      company_logo: https://www.desic-sl.com/wp-content/uploads/2019/07/logo-desic-home.png
+      details: |
+        Just study a little bit of mysql and node.js here
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+    assignments:
+      - title: KOV
+        # optional
+        project_logo: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEbmG2Sb7JgQZDoIsti9BVQjzW0_n2LKXrVT_P42zGpQ&s
+        link: "https://store.steampowered.com/app/2618890/KOV/"
+        tagline: "My first demo of a videogame"
+
+skills:
+    toolset:
+      - name: Python
+        level: 75%
+
+      - name: JavaScript & jQuery
+        level: 80%
+
+      - name: Angular, node.js
+        level: 50%$
+
+      - name: HTML5 & CSS
+        level: 95%
+
+      - name: c++, unity, unreal, MySQL
+        level: 85%
+
+      - name: c#, java
+        level: 100%
